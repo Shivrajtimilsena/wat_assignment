@@ -1,0 +1,104 @@
+:root {
+  --yellow-bg: #e8e67a;
+  --light-purple: #f0e6ff;
+  --dark-navy: #1a1a2e;
+}
+
+body {
+  background-color: var(--yellow-bg);
+}
+
+.hero.is-warning {
+  background-color: var(--yellow-bg);
+}
+
+.logo-circle {
+  width: 80px;
+  height: 80px;
+  background-color: #4ecdc4;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-right: 1.5rem;
+  float: left; /* Aligns the logo to the left */
+}
+
+.title.is-1 {
+  display: inline-block;
+  color: var(--dark-navy);
+  font-family: Georgia, serif;
+}
+
+.subtitle.is-6 {
+  color: var(--dark-navy);
+  font-style: italic;
+}
+
+.navbar {
+  background-color: #b8b84d;
+}
+
+.navbar .button {
+  background-color: var(--dark-navy);
+  color: white;
+  border: none;
+  margin: 0 0.5rem;
+}
+
+.section.has-background-warning {
+  background-color: var(--yellow-bg);
+}
+
+.intro-text {
+  font-style: bold;
+  font-size: 1.3rem;
+  color: var(--dark-navy);
+  position: relative;
+  left: 20rem;
+}
+
+.card.sidebar-card {
+  border: 3px solid var(--dark-navy);
+  border-radius: 12px;
+  position: relative;
+  top: 20rem;
+}
+
+.card.content-card {
+  background-color: var(--light-purple);
+  border: 3px solid var(--dark-navy);
+  border-radius: 12px;
+  height: 100%;
+}
+
+.card-image .image.is-128x128 {
+  margin: 0 auto;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card-header-title {
+  color: var(--dark-navy);
+  font-weight: bold;
+  justify-content: center;
+}
+
+.joke-title {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-content.has-text-centered p {
+  margin-bottom: 0.5rem;
+}
+
+.footer.is-dark {
+  background-color: var(--dark-navy);
+}
+
+.footer a {
+  color: white;
+  margin: 0 1rem;
+}
